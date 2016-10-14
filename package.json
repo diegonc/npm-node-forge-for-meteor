@@ -1,0 +1,25 @@
+{
+  "name": "node-forge-for-meteor",
+  "version": "0.0.1",
+  "description": "node-forge NPM package for use under Meteor",
+  "main": "dist/forge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegonc/npm-node-forge-for-meteor.git"
+  },
+  "keywords": [
+    "node",
+    "forge",
+    "meteor",
+    "browser"
+  ],
+  "author": "Diego Nieto Cid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegonc/npm-node-forge-for-meteor/issues"
+  },
+  "homepage": "https://github.com/diegonc/npm-node-forge-for-meteor.git#readme"
+}
