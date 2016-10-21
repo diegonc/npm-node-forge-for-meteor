@@ -4,7 +4,8 @@
   "description": "node-forge NPM package for use under Meteor",
   "main": "dist/forge.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/diegonc/npm-node-forge-for-meteor/issues"
   },
-  "homepage": "https://github.com/diegonc/npm-node-forge-for-meteor.git#readme"
+  "homepage": "https://github.com/diegonc/npm-node-forge-for-meteor.git#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-run": "^1.7.1"
+  }
 }
