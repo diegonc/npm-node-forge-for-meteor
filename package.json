@@ -28,6 +28,7 @@
     "gulp-clean": "^0.3.2",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
-    "gulp-run": "^1.7.1"
+    "gulp-run": "^1.7.1",
+    "gulp-wrap": "^0.13.0"
   }
 }
