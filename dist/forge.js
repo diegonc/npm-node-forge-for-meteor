@@ -1,3 +1,6 @@
+/*** begin header ***/
+(function () {
+/*** end header ***/
 (function(root, factory) {
   if(typeof define === 'function' && define.amd) {
     define([], factory);
@@ -29974,3 +29977,8 @@ define('js/forge',[
 return require_internal('js/forge');
 
 });
+
+/*** begin trailer ***/
+module.exports = this.forge;
+}).call({});
+/*** end trailer ***/
