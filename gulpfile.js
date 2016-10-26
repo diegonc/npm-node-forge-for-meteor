@@ -33,4 +33,7 @@ gulp.task('install-forge', ['bundle-forge'], function () {
 			.pipe(gulp.dest('./dist'));
 });
 
-gulp.task('default', ['install-forge']);
+gulp.task('default', ['install-forge'], function () {
+	return gulp.src('./tmp', {read: false})
+		.pipe(clean());
+});
